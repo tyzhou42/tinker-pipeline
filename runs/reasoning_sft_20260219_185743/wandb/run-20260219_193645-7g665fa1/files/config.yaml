@@ -1,0 +1,195 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            ghryijvah0l3zahc6norynnd3uae60l0:
+                args:
+                    - --config
+                    - /home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/configs/reasoning_sft.example.json
+                    - --seed
+                    - "42"
+                    - --run-name
+                    - reasoning_sft_20260219_185743
+                    - --wandb-mode
+                    - online
+                    - --selection-metric
+                    - macro_f1
+                    - --student-model-name
+                    - Qwen/Qwen3-8B
+                    - --lora-rank
+                    - "32"
+                    - --num-epochs
+                    - "3"
+                    - --batch-size
+                    - "10"
+                    - --learning-rate
+                    - "0.0002"
+                    - --max-length
+                    - "12288"
+                    - --eval-interval
+                    - "10"
+                    - --max-eval-samples
+                    - "0"
+                    - --eval-max-concurrency
+                    - "64"
+                    - --adapter-output-subdir
+                    - model
+                    - --adapter-download-timeout-seconds
+                    - "600"
+                    - --no-save-resume-checkpoint
+                    - --no-download-adapter
+                codePath: tinker/SFT_reasoning_student.py
+                codePathLocal: SFT_reasoning_student.py
+                cpu_count: 48
+                cpu_count_logical: 96
+                disk:
+                    /:
+                        total: "24425349120"
+                        used: "4262965248"
+                email: tzhou3@andrew.cmu.edu
+                executable: /home/tzhou3/miniconda3/envs/tinker/bin/python3
+                git:
+                    commit: 103a89e604e146b2b47e0d48fbe391c30bea4c14
+                    remote: git@github.com:tyzhou42/Financial-LLM-for-Analyst-Anomaly-Detection.git
+                host: la1
+                memory:
+                    total: "1082083770368"
+                os: Linux-5.10.0-37-amd64-x86_64-with-glibc2.31
+                program: /home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/SFT_reasoning_student.py
+                python: CPython 3.11.14
+                root: /home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260219_185743
+                startedAt: "2026-02-20T00:36:45.438547Z"
+                writerId: ghryijvah0l3zahc6norynnd3uae60l0
+        m: []
+        python_version: 3.11.14
+        t:
+            "1":
+                - 5
+                - 11
+                - 49
+                - 53
+                - 95
+            "2":
+                - 5
+                - 11
+                - 49
+                - 53
+                - 95
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.11.14
+            "5": 0.25.0
+            "6": 5.2.0
+            "12": 0.25.0
+            "13": linux-x86_64
+adam_beta1:
+    value: 0.9
+adam_beta2:
+    value: 0.95
+adam_eps:
+    value: 1e-08
+batch_size:
+    value: 10
+csv_sep:
+    value: ;
+data_path:
+    value: datasets/ethos/Ethos_Dataset_Binary.csv
+dataset_name:
+    value: ethos
+dataset_root_dir:
+    value: tinker/dataset
+eval_interval:
+    value: 10
+eval_max_concurrency:
+    value: 64
+eval_reasoning_placeholder:
+    value: Reasoning intentionally omitted for label scoring.
+invalid_label_warn_rate:
+    value: 0.1
+label_column:
+    value: isHate
+label_threshold:
+    value: 0.5
+learning_rate:
+    value: 0.0002
+log_dir:
+    value: tinker/runs
+lora_rank:
+    value: 32
+lr_schedule:
+    value: linear
+max_eval_samples:
+    value: 0
+max_length:
+    value: 12288
+max_test_examples:
+    value: 0
+max_train_examples:
+    value: 0
+max_val_examples:
+    value: 0
+min_lr_ratio:
+    value: 0.1
+min_reasoning_chars:
+    value: 20
+num_epochs:
+    value: 3
+prompt_file:
+    value: tinker/prompts/sft_reasoning.yaml
+rules_dir:
+    value: tinker/rules
+rules_glob:
+    value: '*.txt'
+rules_root_dir:
+    value: tinker/rules
+run_name:
+    value: reasoning_sft_20260219_185743
+save_sft_jsonl:
+    value: true
+seed:
+    value: 42
+selection_metric:
+    value: macro_f1
+student_model_name:
+    value: Qwen/Qwen3-8B
+task_instruction:
+    value: Decide whether the following text is hate speech.
+teacher_api_key_env:
+    value: DEEPSEEK_API_KEY
+teacher_base_url:
+    value: https://api.deepseek.com
+teacher_env_file:
+    value: extraction/.env
+teacher_json_mode:
+    value: true
+teacher_k:
+    value: 3
+teacher_max_retries:
+    value: 3
+teacher_max_tokens:
+    value: 300
+teacher_model:
+    value: deepseek-chat
+teacher_request_timeout:
+    value: 90
+teacher_sleep_seconds:
+    value: 0
+teacher_temperature:
+    value: 0.7
+teacher_workers:
+    value: 1
+text_column:
+    value: comment
+tinker_base_url:
+    value: null
+ttl_seconds:
+    value: 604800
+wandb_entity:
+    value: null
+wandb_mode:
+    value: online
+wandb_project:
+    value: reasoning-sft-tinker

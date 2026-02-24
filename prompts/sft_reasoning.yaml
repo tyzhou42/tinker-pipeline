@@ -1,0 +1,28 @@
+task_instruction: "Decide whether the following text is hate speech."
+teacher_system_prompt: "You are a careful binary classifier. Always return strict JSON with keys 'reasoning' and 'label'."
+reasoning_user_prompt_template: |-
+  {task_instruction}
+
+  Use the rulebook below to reason in details before selecting the label. Make sure you use all relevant rules to justify your reasoning.
+
+  Rulebook:
+  {rulebook}
+
+  Text:
+  {text}
+
+  Return a JSON object with keys:
+  - "reasoning": rule-grounded explanation
+  - "label": integer 0 or 1
+label_only_user_prompt_template: |-
+  {task_instruction}
+
+  Use the rulebook below, then return only the final label.
+
+  Rulebook:
+  {rulebook}
+
+  Text:
+  {text}
+
+  Respond with only one token: 0 or 1.

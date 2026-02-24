@@ -1,0 +1,4 @@
+run_name=reasoning_sft_20260219_225250
+final_model_path=tinker://c63cb939-1662-578f-9353-9cebd4bb9670:train:0/sampler_weights/reasoning_sft_20260219_225250_final
+best_model_path=tinker://c63cb939-1662-578f-9353-9cebd4bb9670:train:0/sampler_weights/reasoning_sft_20260219_225250_step_56_eval
+resume_state_path=tinker://c63cb939-1662-578f-9353-9cebd4bb9670:train:0/weights/reasoning_sft_20260219_225250_resume_state

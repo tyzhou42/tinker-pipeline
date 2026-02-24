@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-02-20T14:06:43",
+  "checkpoint_path": "tinker://c63cb939-1662-578f-9353-9cebd4bb9670:train:0/sampler_weights/reasoning_sft_20260219_225250_step_56_eval",
+  "split": "test",
+  "dataset_fingerprint": "c2cb607f54c1f6fee334f6830ddc0c68e3a85a8628f8a06337c434bced3abca3",
+  "config_fingerprint": "aff1ecfe1403e6808d4ebe03f5a6b0b9a01b419cd9f2bb0f72bc31e49b5f0d55",
+  "decision_threshold": 0.1824124427986859,
+  "n": 150,
+  "predictions_path": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260219_225250/student_phase/test.json",
+  "metrics": {
+    "decision_threshold": 0.1824124427986859,
+    "loss": 0.5687552787853782,
+    "cls_loss": 0.5687552787853781,
+    "accuracy": 0.88,
+    "macro_f1": 0.8768472906403941,
+    "auroc": 0.9447963800904977,
+    "auprc": 0.9071025835942287,
+    "invalid_label_rate": 0.0,
+    "balanced_accuracy": 0.8742081447963801,
+    "F1": 0.8571428571428571,
+    "mcc": 0.755004346581639,
+    "precision": 0.8852459016393442,
+    "recall": 0.8307692307692308,
+    "tp": 54,
+    "fp": 7,
+    "fn": 11,
+    "tn": 78
+  }
+}

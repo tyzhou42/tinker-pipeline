@@ -1,0 +1,91 @@
+{
+  "counts": {
+    "train": 10,
+    "val": 10,
+    "test": 10,
+    "total": 30
+  },
+  "subset_limits": {
+    "max_train_examples": 10,
+    "max_val_examples": 10,
+    "max_test_examples": 10
+  },
+  "source_split_summary": {
+    "train": {
+      "count": 150,
+      "label_counts": {
+        "0": 85,
+        "1": 65
+      },
+      "label_distribution": {
+        "0": 0.5666666666666667,
+        "1": 0.43333333333333335
+      }
+    },
+    "val": {
+      "count": 150,
+      "label_counts": {
+        "0": 85,
+        "1": 65
+      },
+      "label_distribution": {
+        "0": 0.5666666666666667,
+        "1": 0.43333333333333335
+      }
+    },
+    "test": {
+      "count": 150,
+      "label_counts": {
+        "0": 85,
+        "1": 65
+      },
+      "label_distribution": {
+        "0": 0.5666666666666667,
+        "1": 0.43333333333333335
+      }
+    }
+  },
+  "used_split_summary": {
+    "train": {
+      "count": 10,
+      "label_counts": {
+        "0": 6,
+        "1": 4
+      },
+      "label_distribution": {
+        "0": 0.6,
+        "1": 0.4
+      }
+    },
+    "val": {
+      "count": 10,
+      "label_counts": {
+        "0": 6,
+        "1": 4
+      },
+      "label_distribution": {
+        "0": 0.6,
+        "1": 0.4
+      }
+    },
+    "test": {
+      "count": 10,
+      "label_counts": {
+        "0": 6,
+        "1": 4
+      },
+      "label_distribution": {
+        "0": 0.6,
+        "1": 0.4
+      }
+    }
+  },
+  "seed": 42,
+  "dataset_name": "ethos",
+  "source_dir": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/dataset/ethos",
+  "resolved_split_paths": {
+    "train": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/dataset/ethos/ethos_train.csv",
+    "val": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/dataset/ethos/ethos_val.csv",
+    "test": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/dataset/ethos/ethos_test.csv"
+  }
+}

@@ -1,0 +1,4 @@
+instruction: "Decide whether the following text is hate speech."
+user_prompt_template: |-
+  {instruction}
+  Text: {text}

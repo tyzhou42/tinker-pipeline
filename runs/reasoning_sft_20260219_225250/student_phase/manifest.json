@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-02-20T13:32:50",
+  "run_name": "reasoning_sft_20260219_225250",
+  "checkpoint_path": "tinker://c63cb939-1662-578f-9353-9cebd4bb9670:train:0/sampler_weights/reasoning_sft_20260219_225250_step_56_eval",
+  "dataset_fingerprint": "c2cb607f54c1f6fee334f6830ddc0c68e3a85a8628f8a06337c434bced3abca3",
+  "config_fingerprint": "aff1ecfe1403e6808d4ebe03f5a6b0b9a01b419cd9f2bb0f72bc31e49b5f0d55",
+  "outputs": {
+    "train": {
+      "reused": false,
+      "predictions_path": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260219_225250/student_phase/train.json",
+      "metrics_path": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260219_225250/student_phase/metrics_train.json"
+    },
+    "val": {
+      "reused": false,
+      "predictions_path": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260219_225250/student_phase/val.json",
+      "metrics_path": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260219_225250/student_phase/metrics_val.json"
+    },
+    "test": {
+      "reused": false,
+      "predictions_path": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260219_225250/student_phase/test.json",
+      "metrics_path": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260219_225250/student_phase/metrics_test.json"
+    }
+  },
+  "decision_threshold": 0.1824124427986859
+}

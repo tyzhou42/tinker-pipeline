@@ -1,0 +1,91 @@
+{
+  "counts": {
+    "train": 698,
+    "val": 150,
+    "test": 150,
+    "total": 998
+  },
+  "subset_limits": {
+    "max_train_examples": 0,
+    "max_val_examples": 0,
+    "max_test_examples": 0
+  },
+  "source_split_summary": {
+    "train": {
+      "count": 698,
+      "label_counts": {
+        "0": 395,
+        "1": 303
+      },
+      "label_distribution": {
+        "0": 0.5659025787965616,
+        "1": 0.4340974212034384
+      }
+    },
+    "val": {
+      "count": 150,
+      "label_counts": {
+        "0": 85,
+        "1": 65
+      },
+      "label_distribution": {
+        "0": 0.5666666666666667,
+        "1": 0.43333333333333335
+      }
+    },
+    "test": {
+      "count": 150,
+      "label_counts": {
+        "0": 85,
+        "1": 65
+      },
+      "label_distribution": {
+        "0": 0.5666666666666667,
+        "1": 0.43333333333333335
+      }
+    }
+  },
+  "used_split_summary": {
+    "train": {
+      "count": 698,
+      "label_counts": {
+        "0": 395,
+        "1": 303
+      },
+      "label_distribution": {
+        "0": 0.5659025787965616,
+        "1": 0.4340974212034384
+      }
+    },
+    "val": {
+      "count": 150,
+      "label_counts": {
+        "0": 85,
+        "1": 65
+      },
+      "label_distribution": {
+        "0": 0.5666666666666667,
+        "1": 0.43333333333333335
+      }
+    },
+    "test": {
+      "count": 150,
+      "label_counts": {
+        "0": 85,
+        "1": 65
+      },
+      "label_distribution": {
+        "0": 0.5666666666666667,
+        "1": 0.43333333333333335
+      }
+    }
+  },
+  "seed": 42,
+  "dataset_name": "ethos",
+  "source_dir": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/dataset/ethos",
+  "resolved_split_paths": {
+    "train": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/dataset/ethos/ethos_train.csv",
+    "val": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/dataset/ethos/ethos_val.csv",
+    "test": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/dataset/ethos/ethos_test.csv"
+  }
+}

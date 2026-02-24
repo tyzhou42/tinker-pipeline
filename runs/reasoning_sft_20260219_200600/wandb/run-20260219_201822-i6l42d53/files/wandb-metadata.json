@@ -1,0 +1,64 @@
+{
+  "os":  "Linux-5.10.0-37-amd64-x86_64-with-glibc2.31",
+  "python":  "CPython 3.11.14",
+  "startedAt":  "2026-02-20T01:18:22.695390Z",
+  "args":  [
+    "--config",
+    "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/configs/reasoning_sft.example.json",
+    "--seed",
+    "42",
+    "--run-name",
+    "reasoning_sft_20260219_200600",
+    "--wandb-mode",
+    "online",
+    "--selection-metric",
+    "macro_f1",
+    "--student-model-name",
+    "Qwen/Qwen3-8B",
+    "--lora-rank",
+    "32",
+    "--num-epochs",
+    "3",
+    "--batch-size",
+    "32",
+    "--learning-rate",
+    "0.0002",
+    "--max-length",
+    "20480",
+    "--eval-interval",
+    "20",
+    "--max-eval-samples",
+    "0",
+    "--eval-max-concurrency",
+    "15",
+    "--adapter-output-subdir",
+    "model",
+    "--adapter-download-timeout-seconds",
+    "600",
+    "--save-resume-checkpoint",
+    "--no-download-adapter"
+  ],
+  "program":  "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/SFT_reasoning_student.py",
+  "codePath":  "tinker/SFT_reasoning_student.py",
+  "codePathLocal":  "SFT_reasoning_student.py",
+  "git":  {
+    "remote":  "git@github.com:tyzhou42/Financial-LLM-for-Analyst-Anomaly-Detection.git",
+    "commit":  "103a89e604e146b2b47e0d48fbe391c30bea4c14"
+  },
+  "email":  "tzhou3@andrew.cmu.edu",
+  "root":  "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260219_200600",
+  "host":  "la1",
+  "executable":  "/home/tzhou3/miniconda3/envs/tinker/bin/python3",
+  "cpu_count":  48,
+  "cpu_count_logical":  96,
+  "disk":  {
+    "/":  {
+      "total":  "24425349120",
+      "used":  "4262965248"
+    }
+  },
+  "memory":  {
+    "total":  "1082083770368"
+  },
+  "writerId":  "kcn61v0ok1cgle6v3rnqm9k46v6rp3sm"
+}

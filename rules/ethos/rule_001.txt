@@ -1,0 +1,24 @@
+[1] Rule Name: Dehumanizing or Derogatory Group-Based Language with Hostile Intent, Contextual Safeguards, and Clarified Individual vs. Group Targeting
+Rule Label: 1
+Rule Body:
+Trigger Pattern: Apply this rule when a comment uses dehumanizing terms (e.g., 'pigs', 'retarded'), derogatory generalizations about a protected group (racial, gender, religious, national, sexual orientation), or violent suggestions (e.g., 'gas yourself', 'hope to distinct soon') in combination with group targeting. Key indicators include: (1) use of non-literal or metaphorical slurs, (2) suggestion of elimination, inferiority, or violence toward a group, and (3) reinforcement of harmful stereotypes in a hostile context.
+
+Exceptions: Do not apply if the term is used in a clearly reclaimed, clinical, historical, or satirical context that critiques hate speech rather than promotes it (e.g., academic discussion, LGBTQ+ self-reference, anti-racist commentary). Additionally, do not apply if the language is used metaphorically to criticize non-group-based entities (e.g., 'the system is full of pigs' referring to corruption, not law enforcement as a group) or if the target is an individual without reference to group identity. Further exception: Do not apply if the language criticizes individuals perceived as faking or misrepresenting personal conditions (e.g., mental illness, disability) without linking them to a broader protected group or promoting group-based inferiority, violence, or dehumanization. The rule also does not apply when offensive language is used in a non-generalizing, non-stereotyping manner directed at specific individuals without invoking group-based hostility.
+
+Examples:
+
+Source text: 'those pigs in China and Myanmar should be handled'
+Wrong: Classified as 0 (non-hateful)
+Correct: Should be classified as 1 (hate speech) due to dehumanizing language and implied support for oppressive actions.
+
+Source text: 'politicians are such pigs these days'
+Wrong: Classified as 1 (hateful)
+Correct: Should be classified as 0 (non-hateful) — metaphorical use targeting individuals in a role, not a protected group.
+
+Source text: 'I'm so retarded for forgetting my keys'
+Wrong: Classified as 1 (hateful)
+Correct: Should be classified as 0 (non-hateful) — self-referential, non-group-based, and used in a non-hostile, colloquial manner.
+
+Source text: 'stop faking mental illness, you're so retarded'
+Wrong: Classified as 1 (hateful)
+Correct: Should be classified as 0 (non-hateful) — while offensive, the comment targets individual behavior (feigning disability) without making a derogatory generalization about people with mental disabilities as a group or promoting systemic inferiority or violence against them.

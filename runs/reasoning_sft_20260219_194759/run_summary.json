@@ -1,0 +1,22 @@
+{
+  "run_dir": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260219_194759",
+  "teacher_dir": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260219_194759/teacher_phase",
+  "report_path": "/home/tzhou3/Financial-LLM-for-Analyst-Anomaly-Detection/tinker/runs/reasoning_sft_20260219_194759/test_report.md",
+  "final_model_path": "tinker://608beb50-da98-5d93-a4a3-273c5e330532:train:0/sampler_weights/reasoning_sft_20260219_194759_final",
+  "best_model_path": "tinker://608beb50-da98-5d93-a4a3-273c5e330532:train:0/sampler_weights/reasoning_sft_20260219_194759_step_0_eval",
+  "resume_state_path": "tinker://608beb50-da98-5d93-a4a3-273c5e330532:train:0/weights/reasoning_sft_20260219_194759_resume_state",
+  "adapter_downloads": {},
+  "best_step": 0,
+  "best_val_macro_f1": 0.6000000000000001,
+  "selection_metric": "macro_f1",
+  "best_val_selection_score": 0.6000000000000001,
+  "best_val_selection_metric_value": 0.6000000000000001,
+  "teacher_summary": {
+    "teacher_model": "deepseek-chat",
+    "teacher_workers": 2,
+    "requested_samples": 16,
+    "accepted_samples": 9,
+    "rejected_samples": 7,
+    "acceptance_rate": 0.5625
+  }
+}

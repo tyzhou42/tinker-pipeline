@@ -1,0 +1,16 @@
+[2] Rule Name: Dehumanizing or Derogatory Group-Based Language with Hostile Intent
+Rule Label: 1
+Rule Body:
+Trigger Pattern: Apply this rule when a comment uses dehumanizing terms (e.g., 'pigs', 'retarded'), derogatory generalizations about a protected group (racial, gender, religious, national, sexual orientation), or violent suggestions (e.g., 'gas yourself', 'hope to distinct soon') in combination with group targeting. Key indicators include: (1) use of non-literal or metaphorical slurs, (2) suggestion of elimination, inferiority, or violence toward a group, and (3) reinforcement of harmful stereotypes in a hostile context.
+
+Exceptions: Do not apply if the term is used in a clearly reclaimed, clinical, historical, or satirical context that critiques hate speech rather than promotes it (e.g., academic discussion, LGBTQ+ self-reference, anti-racist commentary). Additionally, do not apply if the criticism is directed at individual behavior (e.g., attention-seeking, perceived exaggeration of personal issues) without targeting a protected group or promoting generalized hostility toward people with mental health conditions or other identities.
+
+Examples:
+
+Source text: 'those pigs in China and Myanmar should be handled'
+Wrong: Classified as 0 (non-hateful)
+Correct: Should be classified as 1 (hate speech) due to dehumanizing language and implied support for oppressive actions.
+
+Source text: 'people who claim mental illness for attention are just lazy and should get over it'
+Wrong: Classified as 1 (hate speech)
+Correct: Should be classified as 0 (non-hateful) — while stigmatizing, the comment targets perceived individual behavior, not a protected group as defined, and lacks intent to dehumanize a broader identity-based community.

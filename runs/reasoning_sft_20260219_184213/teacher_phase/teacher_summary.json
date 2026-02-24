@@ -1,0 +1,8 @@
+{
+  "teacher_model": "deepseek-chat",
+  "teacher_workers": 2,
+  "requested_samples": 10,
+  "accepted_samples": 10,
+  "rejected_samples": 0,
+  "acceptance_rate": 1.0
+}
