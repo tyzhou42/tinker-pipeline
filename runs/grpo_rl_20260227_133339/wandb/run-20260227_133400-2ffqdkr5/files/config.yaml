@@ -1,0 +1,298 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            4ly2ffg626rgmrmgvqsmiysgznarfko8:
+                args:
+                    - --run-name
+                    - grpo_rl_20260227_133339
+                    - --init-checkpoint
+                    - final
+                    - --num-epochs
+                    - "3"
+                    - --batch-size
+                    - "8"
+                    - --group-size
+                    - "8"
+                    - --learning-rate
+                    - "1e-5"
+                    - --loss-fn
+                    - ppo
+                    - --ppo-clip-coef
+                    - "0.2"
+                    - --num-substeps
+                    - "1"
+                    - --normalize-advantages
+                    - --kl-beta
+                    - "0.0"
+                    - --thinking-reward-coef
+                    - "0.0"
+                    - --rollout-max-tokens
+                    - "512"
+                    - --rollout-temperature
+                    - "1.0"
+                    - --eval-interval
+                    - "20"
+                    - --early-stopping-patience
+                    - "5"
+                    - --save-interval
+                    - "100"
+                    - --grad-clip-norm
+                    - "1.0"
+                    - --weight-decay
+                    - "0.01"
+                    - --eval-max-concurrency
+                    - "64"
+                    - --sample-max-concurrency
+                    - "64"
+                    - --rollout-top-k
+                    - "-1"
+                    - --rollout-top-p
+                    - "1.0"
+                codePath: RL.py
+                codePathLocal: RL.py
+                cpu_count: 64
+                cpu_count_logical: 128
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "15359724748800"
+                        used: "14850284560384"
+                email: hzm20021210@gmail.com
+                executable: /mnt/data2/zhongmouhe/conda_envs/sweagent/bin/python3
+                git:
+                    commit: a3498f0407ad22e38ddeb3e0a21bb9cab43671fb
+                    remote: https://github.com/tyzhou42/tinker-pipeline.git
+                gpu: NVIDIA RTX A6000
+                gpu_count: 8
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-58aa7ff0-33f7-966b-ea74-99fc71d3e351
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-3d916280-00a6-5d31-74dd-7568065c2616
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-b1a1bf9e-7617-0d94-c7dc-985181a500a4
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-36fe03e1-cdaa-373a-b95d-4b01d600bc1f
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-97302109-cdc2-e167-ad62-7125d067df24
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-f36c3740-05c8-e082-7aa9-4ced787c0443
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-1b801812-74da-9dec-2b6d-f1955a2621d6
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-77bcde95-0b6d-3758-97a8-879534984ff8
+                host: taurus
+                memory:
+                    total: "1081894895616"
+                os: Linux-6.8.0-90-generic-x86_64-with-glibc2.35
+                program: /home/zhongmouhe/p2/tinker-pipeline/RL.py
+                python: CPython 3.11.14
+                root: /home/zhongmouhe/p2/tinker-pipeline/runs/grpo_rl_20260227_133339
+                startedAt: "2026-02-27T13:34:00.020413Z"
+                writerId: 4ly2ffg626rgmrmgvqsmiysgznarfko8
+        m: []
+        python_version: 3.11.14
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 53
+                - 95
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 53
+                - 95
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.11.14
+            "5": 0.25.0
+            "6": 4.57.3
+            "12": 0.25.0
+            "13": linux-x86_64
+adam_beta1:
+    value: 0.9
+adam_beta2:
+    value: 0.95
+adam_eps:
+    value: 1e-08
+batch_size:
+    value: 8
+config:
+    value: configs/reasoning_sft.example.json
+csv_sep:
+    value: ;
+data_path:
+    value: datasets/ethos/Ethos_Dataset_Binary.csv
+dataset_name:
+    value: ethos
+dataset_root_dir:
+    value: dataset
+early_stopping_patience:
+    value: 5
+eval_interval:
+    value: 20
+eval_max_concurrency:
+    value: 64
+eval_reasoning_placeholder:
+    value: Reasoning intentionally omitted for label scoring.
+grad_clip_norm:
+    value: 1
+group_size:
+    value: 8
+init_checkpoint:
+    value: final
+init_model_path:
+    value: null
+init_state_path:
+    value: null
+invalid_label_warn_rate:
+    value: 0.1
+kl_beta:
+    value: 0
+kl_ref_model_path:
+    value: null
+label_column:
+    value: isHate
+label_threshold:
+    value: 0.5
+learning_rate:
+    value: 1e-05
+log_dir:
+    value: runs
+log_rollout_samples:
+    value: 4
+lora_rank:
+    value: 32
+loss_fn:
+    value: ppo
+lr_schedule:
+    value: linear
+max_eval_samples:
+    value: 0
+max_length:
+    value: 2048
+max_test_examples:
+    value: 0
+max_train_examples:
+    value: 0
+max_val_examples:
+    value: 0
+min_lr_ratio:
+    value: 0.1
+min_reasoning_chars:
+    value: 20
+normalize_advantages:
+    value: true
+num_epochs:
+    value: 3
+num_substeps:
+    value: 1
+ppo_clip_coef:
+    value: 0.2
+prompt_file:
+    value: tinker/prompts/sft_reasoning.yaml
+rollout_max_tokens:
+    value: 512
+rollout_stop:
+    value: null
+rollout_temperature:
+    value: 1
+rollout_top_k:
+    value: -1
+rollout_top_p:
+    value: 1
+rules_dir:
+    value: tinker/rules
+rules_glob:
+    value: '*.txt'
+rules_root_dir:
+    value: tinker/rules
+run_name:
+    value: grpo_rl_20260227_133339
+sample_max_concurrency:
+    value: 64
+save_interval:
+    value: 100
+save_sft_jsonl:
+    value: true
+seed:
+    value: 42
+selection_metric:
+    value: macro_f1
+student_model_name:
+    value: Qwen/Qwen3-8B
+task_instruction:
+    value: Decide whether the following text is hate speech.
+teacher_api_key_env:
+    value: DEEPSEEK_API_KEY
+teacher_base_url:
+    value: https://api.deepseek.com
+teacher_env_file:
+    value: extraction/.env
+teacher_json_mode:
+    value: true
+teacher_k:
+    value: 3
+teacher_max_retries:
+    value: 3
+teacher_max_tokens:
+    value: 300
+teacher_model:
+    value: deepseek-chat
+teacher_request_timeout:
+    value: 90
+teacher_sleep_seconds:
+    value: 0
+teacher_temperature:
+    value: 0.7
+teacher_workers:
+    value: 1
+text_column:
+    value: comment
+thinking_reward_coef:
+    value: 0
+tinker_api_key:
+    value: null
+ttl_seconds:
+    value: 604800
+wandb_api_key:
+    value: null
+wandb_mode:
+    value: online
+wandb_project:
+    value: reasoning-sft-tinker
+weight_decay:
+    value: 0.01

@@ -1,0 +1,5 @@
+{
+  "step": 80,
+  "val_macro_f1": 0.8792270531400965,
+  "sampler_path": "tinker://f15c9d4f-c54d-5206-b105-aa4e31b25519:train:0/sampler_weights/rl_best_step_80"
+}

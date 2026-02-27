@@ -1,0 +1,27 @@
+2026-02-27 13:00:26.694 | INFO     | __main__:main:986 - Run dir: /home/zhongmouhe/p2/tinker-pipeline/runs/grpo_rl_20260227_130023
+2026-02-27 13:00:26.694 | INFO     | __main__:main:987 - RL dir: /home/zhongmouhe/p2/tinker-pipeline/runs/grpo_rl_20260227_130023/rl_phase
+2026-02-27 13:00:26.708 | INFO     | __main__:_load_split_dataset:380 - Loaded train split from /home/zhongmouhe/p2/tinker-pipeline/dataset/ethos/ethos_train.csv using columns (text, label)
+2026-02-27 13:00:26.712 | INFO     | __main__:_load_split_dataset:380 - Loaded val split from /home/zhongmouhe/p2/tinker-pipeline/dataset/ethos/ethos_val.csv using columns (text, label)
+2026-02-27 13:00:26.715 | INFO     | __main__:_load_split_dataset:380 - Loaded test split from /home/zhongmouhe/p2/tinker-pipeline/dataset/ethos/ethos_test.csv using columns (text, label)
+2026-02-27 13:00:26.716 | INFO     | __main__:main:1028 - Dataset 'ethos' | train=698 val=150 test=150
+2026-02-27 13:00:26.719 | INFO     | __main__:main:1058 - Hard/easy split: 92 hard, 606 easy (90 selected for monitoring)
+2026-02-27 13:00:27.014 | INFO     | __main__:main:1079 - Initializing RL training client from state: tinker://c63cb939-1662-578f-9353-9cebd4bb9670:train:0/weights/reasoning_sft_20260219_225250_resume_state
+2026-02-27 13:00:42.705 | INFO     | __main__:main:1123 - Label probe tokens: one=[16], zero=[15]
+2026-02-27 13:00:42.705 | INFO     | __main__:main:1128 - Pre-tokenizing val eval rows (150 examples)...
+2026-02-27 13:00:42.886 | INFO     | __main__:main:1136 - Val eval rows: 150
+2026-02-27 13:00:42.887 | INFO     | __main__:main:1143 - Pre-tokenizing hard eval rows (92 examples)...
+2026-02-27 13:00:42.987 | INFO     | __main__:main:1152 - Hard eval rows: 92
+2026-02-27 13:00:42.987 | INFO     | __main__:main:1160 - Pre-tokenizing easy eval rows (90 examples)...
+2026-02-27 13:00:43.089 | INFO     | __main__:main:1169 - Easy eval rows: 90
+2026-02-27 13:00:43.089 | INFO     | __main__:main:1176 - Pre-tokenizing test rows (150 examples)...
+2026-02-27 13:00:43.444 | INFO     | __main__:main:1191 - Test gen rows: 150, test logprob rows: 150
+2026-02-27 13:00:43.444 | INFO     | __main__:main:1194 - Pre-tokenizing train prompts (698 examples)...
+2026-02-27 13:00:44.232 | INFO     | __main__:main:1200 - Train prompts: 698
+2026-02-27 13:00:45.204 | WARNING  | __main__:main:1219 - WandB init failed (Error uploading run: returned error 401: {"data":{"upsertBucket":null},"errors":[{"message":"user is not logged in","path":["upsertBucket"],"extensions":{"code":"PERMISSION_ERROR"}}]}). Training will continue without remote logging.
+2026-02-27 13:00:45.205 | INFO     | __main__:main:1253 - RL schedule: epochs=3 batch_size=8 steps_per_epoch=88 total_steps=264 group_size=8
+2026-02-27 13:01:09.301 | INFO     | __main__:main:1653 - Step 1/264 | epoch 0 | loss=0.0000 reward=0.969 acc=0.984 invalid=0.016 thinking=173tok kl=0.0000
+2026-02-27 13:03:52.569 | INFO     | __main__:main:1653 - Step 10/264 | epoch 0 | loss=0.0000 reward=0.438 acc=0.719 invalid=0.000 thinking=144tok kl=0.0000
+2026-02-27 13:06:37.086 | INFO     | __main__:main:1653 - Step 20/264 | epoch 0 | loss=0.0000 reward=-0.094 acc=0.453 invalid=0.000 thinking=134tok kl=0.0000
+2026-02-27 13:06:59.527 | INFO     | __main__:_run_periodic_eval:553 - VAL@step 20 | thr=0.1329 acc=0.8667 macro_f1=0.8655 auroc=0.9233 auprc=0.9162
+2026-02-27 13:07:13.965 | INFO     | __main__:_run_periodic_eval:576 - HARD@step 20 | acc=0.6304 (n=92)
+2026-02-27 13:07:27.276 | INFO     | __main__:_run_periodic_eval:592 - EASY@step 20 | acc=0.9000 (n=90)

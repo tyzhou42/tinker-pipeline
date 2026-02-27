@@ -1,0 +1,136 @@
+{
+  "os":  "Linux-6.8.0-90-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.11.14",
+  "startedAt":  "2026-02-27T13:34:00.020413Z",
+  "args":  [
+    "--run-name",
+    "grpo_rl_20260227_133339",
+    "--init-checkpoint",
+    "final",
+    "--num-epochs",
+    "3",
+    "--batch-size",
+    "8",
+    "--group-size",
+    "8",
+    "--learning-rate",
+    "1e-5",
+    "--loss-fn",
+    "ppo",
+    "--ppo-clip-coef",
+    "0.2",
+    "--num-substeps",
+    "1",
+    "--normalize-advantages",
+    "--kl-beta",
+    "0.0",
+    "--thinking-reward-coef",
+    "0.0",
+    "--rollout-max-tokens",
+    "512",
+    "--rollout-temperature",
+    "1.0",
+    "--eval-interval",
+    "20",
+    "--early-stopping-patience",
+    "5",
+    "--save-interval",
+    "100",
+    "--grad-clip-norm",
+    "1.0",
+    "--weight-decay",
+    "0.01",
+    "--eval-max-concurrency",
+    "64",
+    "--sample-max-concurrency",
+    "64",
+    "--rollout-top-k",
+    "-1",
+    "--rollout-top-p",
+    "1.0"
+  ],
+  "program":  "/home/zhongmouhe/p2/tinker-pipeline/RL.py",
+  "codePath":  "RL.py",
+  "codePathLocal":  "RL.py",
+  "git":  {
+    "remote":  "https://github.com/tyzhou42/tinker-pipeline.git",
+    "commit":  "a3498f0407ad22e38ddeb3e0a21bb9cab43671fb"
+  },
+  "email":  "hzm20021210@gmail.com",
+  "root":  "/home/zhongmouhe/p2/tinker-pipeline/runs/grpo_rl_20260227_133339",
+  "host":  "taurus",
+  "executable":  "/mnt/data2/zhongmouhe/conda_envs/sweagent/bin/python3",
+  "cpu_count":  64,
+  "cpu_count_logical":  128,
+  "gpu":  "NVIDIA RTX A6000",
+  "gpu_count":  8,
+  "disk":  {
+    "/":  {
+      "total":  "15359724748800",
+      "used":  "14850284560384"
+    }
+  },
+  "memory":  {
+    "total":  "1081894895616"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-58aa7ff0-33f7-966b-ea74-99fc71d3e351"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-3d916280-00a6-5d31-74dd-7568065c2616"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-b1a1bf9e-7617-0d94-c7dc-985181a500a4"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-36fe03e1-cdaa-373a-b95d-4b01d600bc1f"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-97302109-cdc2-e167-ad62-7125d067df24"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-f36c3740-05c8-e082-7aa9-4ced787c0443"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-1b801812-74da-9dec-2b6d-f1955a2621d6"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-77bcde95-0b6d-3758-97a8-879534984ff8"
+    }
+  ],
+  "cudaVersion":  "12.4",
+  "writerId":  "4ly2ffg626rgmrmgvqsmiysgznarfko8"
+}

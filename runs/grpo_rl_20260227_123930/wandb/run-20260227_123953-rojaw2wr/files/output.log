@@ -1,0 +1,8 @@
+[34m[1mwandb[0m: Detected [openai] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai/
+2026-02-27 12:39:55 | INFO | WandB run: https://wandb.ai/hzm20021210-carnegie-mellon-university/reasoning-sft-tinker/runs/rojaw2wr
+2026-02-27 12:39:55 | INFO | RL schedule: epochs=3 batch_size=8 steps_per_epoch=88 total_steps=264 group_size=8
+2026-02-27 12:40:16 | INFO | Step 1/264 | epoch 0 | loss=0.0000 reward=0.844 acc=0.922 invalid=0.000 thinking=192tok kl=0.0000
+2026-02-27 12:43:05 | INFO | Step 10/264 | epoch 0 | loss=0.0000 reward=0.156 acc=0.578 invalid=0.000 thinking=168tok kl=0.0000
+2026-02-27 12:43:41 | WARNING | Training interrupted by user.

@@ -1,0 +1,9 @@
+{
+  "saved_at": "2026-02-27T15:00:20",
+  "run_name": "grpo_rl_20260227_133339",
+  "best_step": 80,
+  "best_val_macro_f1": 0.8792270531400965,
+  "best_model_path": "tinker://f15c9d4f-c54d-5206-b105-aa4e31b25519:train:0/sampler_weights/rl_best_step_80",
+  "final_model_path": "tinker://f15c9d4f-c54d-5206-b105-aa4e31b25519:train:0/sampler_weights/rl_final",
+  "final_state_path": "tinker://f15c9d4f-c54d-5206-b105-aa4e31b25519:train:0/weights/rl_final"
+}

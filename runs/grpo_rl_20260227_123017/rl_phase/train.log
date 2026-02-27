@@ -1,0 +1,8 @@
+2026-02-27 12:30:20.620 | INFO     | __main__:main:986 - Run dir: /home/zhongmouhe/p2/tinker-pipeline/runs/grpo_rl_20260227_123017
+2026-02-27 12:30:20.621 | INFO     | __main__:main:987 - RL dir: /home/zhongmouhe/p2/tinker-pipeline/runs/grpo_rl_20260227_123017/rl_phase
+2026-02-27 12:30:20.638 | INFO     | __main__:_load_split_dataset:380 - Loaded train split from /home/zhongmouhe/p2/tinker-pipeline/dataset/ethos/ethos_train.csv using columns (text, label)
+2026-02-27 12:30:20.642 | INFO     | __main__:_load_split_dataset:380 - Loaded val split from /home/zhongmouhe/p2/tinker-pipeline/dataset/ethos/ethos_val.csv using columns (text, label)
+2026-02-27 12:30:20.646 | INFO     | __main__:_load_split_dataset:380 - Loaded test split from /home/zhongmouhe/p2/tinker-pipeline/dataset/ethos/ethos_test.csv using columns (text, label)
+2026-02-27 12:30:20.646 | INFO     | __main__:main:1028 - Dataset 'ethos' | train=698 val=150 test=150
+2026-02-27 12:30:20.650 | INFO     | __main__:main:1058 - Hard/easy split: 92 hard, 606 easy (90 selected for monitoring)
+2026-02-27 12:30:21.198 | INFO     | __main__:main:1079 - Initializing RL training client from state: tinker://c63cb939-1662-578f-9353-9cebd4bb9670:train:0/weights/reasoning_sft_20260219_225250_resume_state

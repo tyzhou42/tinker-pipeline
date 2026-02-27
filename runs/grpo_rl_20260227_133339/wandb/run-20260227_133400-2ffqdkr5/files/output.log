@@ -1,0 +1,230 @@
+[34m[1mwandb[0m: Detected [openai] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai/
+2026-02-27 13:34:01 | INFO | WandB run: https://wandb.ai/hzm20021210-carnegie-mellon-university/reasoning-sft-tinker/runs/2ffqdkr5
+2026-02-27 13:34:01 | INFO | RL schedule: epochs=3 batch_size=8 steps_per_epoch=88 total_steps=264 group_size=8
+2026-02-27 13:34:22 | INFO | Step 1/264 | epoch 0 | loss=237.5980 reward=0.656 acc=0.828 invalid=0.016 thinking=188tok kl=0.0000
+2026-02-27 13:34:39 | INFO | Step 2/264 | epoch 0 | loss=-5.7210 reward=0.969 acc=0.984 invalid=0.000 thinking=124tok kl=0.0000
+2026-02-27 13:35:03 | INFO | Step 3/264 | epoch 0 | loss=-82.1281 reward=0.344 acc=0.672 invalid=0.000 thinking=178tok kl=0.0000
+2026-02-27 13:35:20 | INFO | Step 4/264 | epoch 0 | loss=264.8889 reward=0.719 acc=0.859 invalid=0.000 thinking=131tok kl=0.0000
+2026-02-27 13:35:37 | INFO | Step 5/264 | epoch 0 | loss=66.3342 reward=0.938 acc=0.969 invalid=0.000 thinking=155tok kl=0.0000
+2026-02-27 13:35:55 | INFO | Step 6/264 | epoch 0 | loss=-64.5477 reward=0.125 acc=0.562 invalid=0.000 thinking=154tok kl=0.0000
+2026-02-27 13:36:10 | INFO | Step 7/264 | epoch 0 | loss=0.0000 reward=0.250 acc=0.625 invalid=0.000 thinking=134tok kl=0.0000
+2026-02-27 13:36:28 | INFO | Step 8/264 | epoch 0 | loss=22.9099 reward=0.781 acc=0.891 invalid=0.000 thinking=152tok kl=0.0000
+2026-02-27 13:36:43 | INFO | Step 9/264 | epoch 0 | loss=89.2176 reward=0.656 acc=0.828 invalid=0.000 thinking=120tok kl=0.0000
+2026-02-27 13:37:01 | INFO | Step 10/264 | epoch 0 | loss=-276.8751 reward=0.250 acc=0.625 invalid=0.000 thinking=147tok kl=0.0000
+2026-02-27 13:37:21 | INFO | Step 11/264 | epoch 0 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=137tok kl=0.0000
+2026-02-27 13:37:37 | INFO | Step 12/264 | epoch 0 | loss=-85.9167 reward=0.656 acc=0.828 invalid=0.000 thinking=119tok kl=0.0000
+2026-02-27 13:37:53 | INFO | Step 13/264 | epoch 0 | loss=28.8943 reward=0.938 acc=0.969 invalid=0.031 thinking=139tok kl=0.0000
+2026-02-27 13:38:12 | INFO | Step 14/264 | epoch 0 | loss=-637.3877 reward=0.406 acc=0.703 invalid=0.000 thinking=154tok kl=0.0000
+2026-02-27 13:38:30 | INFO | Step 15/264 | epoch 0 | loss=-160.0295 reward=0.719 acc=0.859 invalid=0.000 thinking=123tok kl=0.0000
+2026-02-27 13:38:45 | INFO | Step 16/264 | epoch 0 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=139tok kl=0.0000
+2026-02-27 13:39:05 | INFO | Step 17/264 | epoch 0 | loss=-235.2471 reward=0.688 acc=0.844 invalid=0.000 thinking=162tok kl=0.0000
+2026-02-27 13:39:25 | INFO | Step 18/264 | epoch 0 | loss=45.9837 reward=0.562 acc=0.781 invalid=0.000 thinking=161tok kl=0.0000
+2026-02-27 13:39:43 | INFO | Step 19/264 | epoch 0 | loss=-75.6170 reward=0.688 acc=0.844 invalid=0.000 thinking=166tok kl=0.0000
+2026-02-27 13:40:01 | INFO | Step 20/264 | epoch 0 | loss=26.9382 reward=0.094 acc=0.547 invalid=0.000 thinking=164tok kl=0.0000
+2026-02-27 13:40:24 | INFO | VAL@step 20 | thr=0.0965 acc=0.8600 macro_f1=0.8592 auroc=0.9227 auprc=0.9159
+2026-02-27 13:40:37 | INFO | HARD@step 20 | acc=0.6413 (n=92)
+2026-02-27 13:40:52 | INFO | EASY@step 20 | acc=0.8667 (n=90)
+2026-02-27 13:40:54 | INFO | New best! val macro_f1=0.8592 @ step 20 | path=tinker://f15c9d4f-c54d-5206-b105-aa4e31b25519:train:0/sampler_weights/rl_best_step_20
+2026-02-27 13:41:17 | INFO | Step 21/264 | epoch 0 | loss=130.3136 reward=0.688 acc=0.844 invalid=0.000 thinking=145tok kl=0.0000
+2026-02-27 13:41:35 | INFO | Step 22/264 | epoch 0 | loss=52.1805 reward=0.969 acc=0.984 invalid=0.000 thinking=151tok kl=0.0000
+2026-02-27 13:41:53 | INFO | Step 23/264 | epoch 0 | loss=56.2063 reward=0.531 acc=0.766 invalid=0.000 thinking=157tok kl=0.0000
+2026-02-27 13:42:12 | INFO | Step 24/264 | epoch 0 | loss=3.9423 reward=0.969 acc=0.984 invalid=0.000 thinking=157tok kl=0.0000
+2026-02-27 13:42:26 | INFO | Step 25/264 | epoch 0 | loss=84.0270 reward=0.781 acc=0.891 invalid=0.000 thinking=146tok kl=0.0000
+2026-02-27 13:42:45 | INFO | Step 26/264 | epoch 0 | loss=132.1797 reward=0.938 acc=0.969 invalid=0.000 thinking=128tok kl=0.0000
+2026-02-27 13:43:02 | INFO | Step 27/264 | epoch 0 | loss=50.7339 reward=0.781 acc=0.891 invalid=0.000 thinking=154tok kl=0.0000
+2026-02-27 13:43:18 | INFO | Step 28/264 | epoch 0 | loss=-1.4065 reward=0.344 acc=0.672 invalid=0.000 thinking=141tok kl=0.0000
+2026-02-27 13:43:35 | INFO | Step 29/264 | epoch 0 | loss=-49.1664 reward=0.781 acc=0.891 invalid=0.000 thinking=148tok kl=0.0000
+2026-02-27 13:43:54 | INFO | Step 30/264 | epoch 0 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=169tok kl=0.0000
+2026-02-27 13:44:11 | INFO | Step 31/264 | epoch 0 | loss=54.3159 reward=0.781 acc=0.891 invalid=0.000 thinking=157tok kl=0.0000
+2026-02-27 13:44:28 | INFO | Step 32/264 | epoch 0 | loss=-125.6763 reward=0.688 acc=0.844 invalid=0.000 thinking=167tok kl=0.0000
+2026-02-27 13:44:42 | INFO | Step 33/264 | epoch 0 | loss=145.2652 reward=0.156 acc=0.578 invalid=0.000 thinking=166tok kl=0.0000
+2026-02-27 13:45:01 | INFO | Step 34/264 | epoch 0 | loss=105.2633 reward=0.906 acc=0.953 invalid=0.000 thinking=157tok kl=0.0000
+2026-02-27 13:45:17 | INFO | Step 35/264 | epoch 0 | loss=-35.1305 reward=0.594 acc=0.797 invalid=0.000 thinking=151tok kl=0.0000
+2026-02-27 13:45:38 | INFO | Step 36/264 | epoch 0 | loss=-137.5832 reward=0.625 acc=0.812 invalid=0.000 thinking=176tok kl=0.0000
+2026-02-27 13:45:55 | INFO | Step 37/264 | epoch 0 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=148tok kl=0.0000
+2026-02-27 13:46:15 | INFO | Step 38/264 | epoch 0 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=149tok kl=0.0000
+2026-02-27 13:46:32 | INFO | Step 39/264 | epoch 0 | loss=410.0997 reward=0.406 acc=0.703 invalid=0.000 thinking=152tok kl=0.0000
+2026-02-27 13:46:51 | INFO | Step 40/264 | epoch 0 | loss=-187.1052 reward=0.500 acc=0.750 invalid=0.000 thinking=132tok kl=0.0000
+2026-02-27 13:47:14 | INFO | VAL@step 40 | thr=0.1311 acc=0.8733 macro_f1=0.8717 auroc=0.9263 auprc=0.9198
+2026-02-27 13:47:28 | INFO | HARD@step 40 | acc=0.6304 (n=92)
+2026-02-27 13:47:41 | INFO | EASY@step 40 | acc=0.8778 (n=90)
+2026-02-27 13:47:43 | INFO | New best! val macro_f1=0.8717 @ step 40 | path=tinker://f15c9d4f-c54d-5206-b105-aa4e31b25519:train:0/sampler_weights/rl_best_step_40
+2026-02-27 13:48:06 | INFO | Step 41/264 | epoch 0 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=173tok kl=0.0000
+2026-02-27 13:48:22 | INFO | Step 42/264 | epoch 0 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=119tok kl=0.0000
+2026-02-27 13:48:38 | INFO | Step 43/264 | epoch 0 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=135tok kl=0.0000
+2026-02-27 13:48:55 | INFO | Step 44/264 | epoch 0 | loss=-104.5879 reward=0.812 acc=0.906 invalid=0.000 thinking=140tok kl=0.0000
+2026-02-27 13:49:12 | INFO | Step 45/264 | epoch 0 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=127tok kl=0.0000
+2026-02-27 13:49:29 | INFO | Step 46/264 | epoch 0 | loss=35.0473 reward=0.750 acc=0.875 invalid=0.000 thinking=134tok kl=0.0000
+2026-02-27 13:49:44 | INFO | Step 47/264 | epoch 0 | loss=183.4353 reward=0.438 acc=0.719 invalid=0.000 thinking=133tok kl=0.0000
+2026-02-27 13:50:01 | INFO | Step 48/264 | epoch 0 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=129tok kl=0.0000
+2026-02-27 13:50:23 | INFO | Step 49/264 | epoch 0 | loss=-190.6892 reward=0.688 acc=0.844 invalid=0.000 thinking=154tok kl=0.0000
+2026-02-27 13:50:40 | INFO | Step 50/264 | epoch 0 | loss=116.0128 reward=0.312 acc=0.656 invalid=0.000 thinking=133tok kl=0.0000
+2026-02-27 13:50:57 | INFO | Step 51/264 | epoch 0 | loss=-98.6482 reward=0.406 acc=0.703 invalid=0.016 thinking=142tok kl=0.0000
+2026-02-27 13:51:16 | INFO | Step 52/264 | epoch 0 | loss=-106.2732 reward=0.719 acc=0.859 invalid=0.000 thinking=142tok kl=0.0000
+2026-02-27 13:51:37 | INFO | Step 53/264 | epoch 0 | loss=178.7925 reward=0.781 acc=0.891 invalid=0.000 thinking=148tok kl=0.0000
+2026-02-27 13:51:55 | INFO | Step 54/264 | epoch 0 | loss=30.3128 reward=0.719 acc=0.859 invalid=0.000 thinking=141tok kl=0.0000
+2026-02-27 13:52:14 | INFO | Step 55/264 | epoch 0 | loss=0.0000 reward=0.500 acc=0.750 invalid=0.000 thinking=149tok kl=0.0000
+2026-02-27 13:52:37 | INFO | Step 56/264 | epoch 0 | loss=-272.9546 reward=0.094 acc=0.547 invalid=0.000 thinking=148tok kl=0.0000
+2026-02-27 13:52:55 | INFO | Step 57/264 | epoch 0 | loss=241.6417 reward=0.656 acc=0.828 invalid=0.000 thinking=152tok kl=0.0000
+2026-02-27 13:53:13 | INFO | Step 58/264 | epoch 0 | loss=195.0464 reward=0.594 acc=0.797 invalid=0.000 thinking=121tok kl=0.0000
+2026-02-27 13:53:31 | INFO | Step 59/264 | epoch 0 | loss=-43.0873 reward=0.344 acc=0.672 invalid=0.000 thinking=152tok kl=0.0000
+2026-02-27 13:53:54 | INFO | Step 60/264 | epoch 0 | loss=-279.7264 reward=0.625 acc=0.812 invalid=0.000 thinking=142tok kl=0.0000
+2026-02-27 13:54:15 | INFO | VAL@step 60 | thr=0.1192 acc=0.8600 macro_f1=0.8595 auroc=0.9258 auprc=0.9193
+2026-02-27 13:54:28 | INFO | HARD@step 60 | acc=0.6522 (n=92)
+2026-02-27 13:54:40 | INFO | EASY@step 60 | acc=0.8667 (n=90)
+2026-02-27 13:54:40 | INFO | No improvement (patience 1/5). Best: macro_f1=0.8717 @ step 40
+2026-02-27 13:54:57 | INFO | Step 61/264 | epoch 0 | loss=37.6670 reward=0.969 acc=0.984 invalid=0.000 thinking=132tok kl=0.0000
+2026-02-27 13:55:15 | INFO | Step 62/264 | epoch 0 | loss=-26.1916 reward=0.125 acc=0.562 invalid=0.000 thinking=147tok kl=0.0000
+2026-02-27 13:55:39 | INFO | Step 63/264 | epoch 0 | loss=-341.2673 reward=0.938 acc=0.969 invalid=0.000 thinking=182tok kl=0.0000
+2026-02-27 13:55:58 | INFO | Step 64/264 | epoch 0 | loss=-99.6331 reward=0.188 acc=0.594 invalid=0.000 thinking=137tok kl=0.0000
+2026-02-27 13:56:18 | INFO | Step 65/264 | epoch 0 | loss=-21.8220 reward=0.312 acc=0.656 invalid=0.000 thinking=148tok kl=0.0000
+2026-02-27 13:56:34 | INFO | Step 66/264 | epoch 0 | loss=185.4590 reward=0.656 acc=0.828 invalid=0.000 thinking=128tok kl=0.0000
+2026-02-27 13:56:52 | INFO | Step 67/264 | epoch 0 | loss=230.2007 reward=0.594 acc=0.797 invalid=0.000 thinking=158tok kl=0.0000
+2026-02-27 13:57:12 | INFO | Step 68/264 | epoch 0 | loss=-39.4650 reward=0.969 acc=0.984 invalid=0.000 thinking=118tok kl=0.0000
+2026-02-27 13:57:29 | INFO | Step 69/264 | epoch 0 | loss=-10.5508 reward=0.344 acc=0.672 invalid=0.000 thinking=145tok kl=0.0000
+2026-02-27 13:57:47 | INFO | Step 70/264 | epoch 0 | loss=-343.7608 reward=0.250 acc=0.625 invalid=0.000 thinking=156tok kl=0.0000
+2026-02-27 13:58:04 | INFO | Step 71/264 | epoch 0 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=160tok kl=0.0000
+2026-02-27 13:58:22 | INFO | Step 72/264 | epoch 0 | loss=36.4852 reward=0.531 acc=0.766 invalid=0.000 thinking=141tok kl=0.0000
+2026-02-27 13:58:39 | INFO | Step 73/264 | epoch 0 | loss=123.7686 reward=0.750 acc=0.875 invalid=0.000 thinking=157tok kl=0.0000
+2026-02-27 13:58:57 | INFO | Step 74/264 | epoch 0 | loss=0.0000 reward=0.500 acc=0.750 invalid=0.000 thinking=137tok kl=0.0000
+2026-02-27 13:59:16 | INFO | Step 75/264 | epoch 0 | loss=32.4480 reward=0.656 acc=0.828 invalid=0.000 thinking=147tok kl=0.0000
+2026-02-27 13:59:33 | INFO | Step 76/264 | epoch 0 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=129tok kl=0.0000
+2026-02-27 13:59:51 | INFO | Step 77/264 | epoch 0 | loss=-62.4784 reward=0.500 acc=0.750 invalid=0.000 thinking=150tok kl=0.0000
+2026-02-27 14:00:22 | INFO | Step 78/264 | epoch 0 | loss=92.5486 reward=0.719 acc=0.859 invalid=0.000 thinking=165tok kl=0.0000
+2026-02-27 14:00:40 | INFO | Step 79/264 | epoch 0 | loss=75.1331 reward=0.281 acc=0.641 invalid=0.000 thinking=149tok kl=0.0000
+2026-02-27 14:00:59 | INFO | Step 80/264 | epoch 0 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=134tok kl=0.0000
+2026-02-27 14:01:20 | INFO | VAL@step 80 | thr=0.1330 acc=0.8800 macro_f1=0.8792 auroc=0.9269 auprc=0.9192
+2026-02-27 14:01:33 | INFO | HARD@step 80 | acc=0.6304 (n=92)
+2026-02-27 14:01:40 | INFO | EASY@step 80 | acc=0.8778 (n=90)
+2026-02-27 14:01:42 | INFO | New best! val macro_f1=0.8792 @ step 80 | path=tinker://f15c9d4f-c54d-5206-b105-aa4e31b25519:train:0/sampler_weights/rl_best_step_80
+2026-02-27 14:02:01 | INFO | Step 81/264 | epoch 0 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=136tok kl=0.0000
+2026-02-27 14:02:17 | INFO | Step 82/264 | epoch 0 | loss=0.6307 reward=0.812 acc=0.906 invalid=0.000 thinking=128tok kl=0.0000
+2026-02-27 14:02:34 | INFO | Step 83/264 | epoch 0 | loss=-15.5627 reward=0.906 acc=0.953 invalid=0.000 thinking=133tok kl=0.0000
+2026-02-27 14:02:52 | INFO | Step 84/264 | epoch 0 | loss=530.4996 reward=0.844 acc=0.922 invalid=0.000 thinking=148tok kl=0.0000
+2026-02-27 14:03:08 | INFO | Step 85/264 | epoch 0 | loss=0.0000 reward=0.500 acc=0.750 invalid=0.000 thinking=136tok kl=0.0000
+2026-02-27 14:03:26 | INFO | Step 86/264 | epoch 0 | loss=80.7417 reward=0.625 acc=0.812 invalid=0.000 thinking=147tok kl=0.0000
+2026-02-27 14:03:42 | INFO | Step 87/264 | epoch 0 | loss=22.7522 reward=0.875 acc=0.938 invalid=0.000 thinking=157tok kl=0.0000
+2026-02-27 14:03:55 | INFO | Step 88/264 | epoch 0 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=136tok kl=0.0000
+2026-02-27 14:04:13 | INFO | Step 89/264 | epoch 1 | loss=-127.6042 reward=0.031 acc=0.516 invalid=0.000 thinking=150tok kl=0.0000
+2026-02-27 14:04:34 | INFO | Step 90/264 | epoch 1 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=113tok kl=0.0000
+2026-02-27 14:04:56 | INFO | Step 91/264 | epoch 1 | loss=-46.9827 reward=0.969 acc=0.984 invalid=0.000 thinking=143tok kl=0.0000
+2026-02-27 14:05:13 | INFO | Step 92/264 | epoch 1 | loss=-47.2710 reward=0.844 acc=0.922 invalid=0.000 thinking=122tok kl=0.0000
+2026-02-27 14:05:31 | INFO | Step 93/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=142tok kl=0.0000
+2026-02-27 14:05:48 | INFO | Step 94/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=107tok kl=0.0000
+2026-02-27 14:06:07 | INFO | Step 95/264 | epoch 1 | loss=-146.5384 reward=0.312 acc=0.656 invalid=0.000 thinking=144tok kl=0.0000
+2026-02-27 14:06:25 | INFO | Step 96/264 | epoch 1 | loss=14.7127 reward=0.719 acc=0.859 invalid=0.000 thinking=143tok kl=0.0000
+2026-02-27 14:06:43 | INFO | Step 97/264 | epoch 1 | loss=-118.5988 reward=0.688 acc=0.844 invalid=0.000 thinking=147tok kl=0.0000
+2026-02-27 14:07:02 | INFO | Step 98/264 | epoch 1 | loss=-218.3276 reward=0.750 acc=0.875 invalid=0.000 thinking=134tok kl=0.0000
+2026-02-27 14:07:20 | INFO | Step 99/264 | epoch 1 | loss=43.2348 reward=0.969 acc=0.984 invalid=0.000 thinking=142tok kl=0.0000
+2026-02-27 14:07:41 | INFO | Step 100/264 | epoch 1 | loss=0.0000 reward=0.500 acc=0.750 invalid=0.000 thinking=154tok kl=0.0000
+2026-02-27 14:08:03 | INFO | VAL@step 100 | thr=0.1350 acc=0.8800 macro_f1=0.8792 auroc=0.9263 auprc=0.9183
+2026-02-27 14:08:17 | INFO | HARD@step 100 | acc=0.6304 (n=92)
+2026-02-27 14:08:31 | INFO | EASY@step 100 | acc=0.8778 (n=90)
+2026-02-27 14:08:31 | INFO | No improvement (patience 1/5). Best: macro_f1=0.8792 @ step 80
+2026-02-27 14:08:47 | INFO | Checkpoint rl_step_100 | state=tinker://f15c9d4f-c54d-5206-b105-aa4e31b25519:train:0/weights/rl_step_100 | sampler=tinker://f15c9d4f-c54d-5206-b105-aa4e31b25519:train:0/sampler_weights/rl_step_100
+2026-02-27 14:09:07 | INFO | Step 101/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=134tok kl=0.0000
+2026-02-27 14:09:23 | INFO | Step 102/264 | epoch 1 | loss=35.2708 reward=0.781 acc=0.891 invalid=0.000 thinking=149tok kl=0.0000
+2026-02-27 14:09:42 | INFO | Step 103/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=160tok kl=0.0000
+2026-02-27 14:09:58 | INFO | Step 104/264 | epoch 1 | loss=108.8950 reward=0.406 acc=0.703 invalid=0.000 thinking=142tok kl=0.0000
+2026-02-27 14:10:12 | INFO | Step 105/264 | epoch 1 | loss=163.7966 reward=0.750 acc=0.875 invalid=0.000 thinking=158tok kl=0.0000
+2026-02-27 14:10:27 | INFO | Step 106/264 | epoch 1 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=121tok kl=0.0000
+2026-02-27 14:10:54 | INFO | Step 107/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=142tok kl=0.0000
+2026-02-27 14:11:09 | INFO | Step 108/264 | epoch 1 | loss=0.0000 reward=0.250 acc=0.625 invalid=0.000 thinking=123tok kl=0.0000
+2026-02-27 14:11:27 | INFO | Step 109/264 | epoch 1 | loss=-24.5665 reward=0.656 acc=0.828 invalid=0.000 thinking=156tok kl=0.0000
+2026-02-27 14:11:43 | INFO | Step 110/264 | epoch 1 | loss=-282.7823 reward=0.844 acc=0.922 invalid=0.000 thinking=155tok kl=0.0000
+2026-02-27 14:12:03 | INFO | Step 111/264 | epoch 1 | loss=162.6688 reward=0.844 acc=0.922 invalid=0.000 thinking=148tok kl=0.0000
+2026-02-27 14:12:19 | INFO | Step 112/264 | epoch 1 | loss=-124.8016 reward=0.719 acc=0.859 invalid=0.000 thinking=133tok kl=0.0000
+2026-02-27 14:12:42 | INFO | Step 113/264 | epoch 1 | loss=-84.1062 reward=0.125 acc=0.562 invalid=0.000 thinking=149tok kl=0.0000
+2026-02-27 14:12:59 | INFO | Step 114/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=129tok kl=0.0000
+2026-02-27 14:13:15 | INFO | Step 115/264 | epoch 1 | loss=80.7621 reward=0.656 acc=0.828 invalid=0.000 thinking=147tok kl=0.0000
+2026-02-27 14:13:32 | INFO | Step 116/264 | epoch 1 | loss=0.0000 reward=0.250 acc=0.625 invalid=0.000 thinking=148tok kl=0.0000
+2026-02-27 14:13:46 | INFO | Step 117/264 | epoch 1 | loss=-150.4825 reward=0.094 acc=0.547 invalid=0.000 thinking=163tok kl=0.0000
+2026-02-27 14:14:02 | INFO | Step 118/264 | epoch 1 | loss=153.7567 reward=0.688 acc=0.844 invalid=0.000 thinking=152tok kl=0.0000
+2026-02-27 14:14:17 | INFO | Step 119/264 | epoch 1 | loss=54.3442 reward=0.969 acc=0.984 invalid=0.000 thinking=129tok kl=0.0000
+2026-02-27 14:14:34 | INFO | Step 120/264 | epoch 1 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=155tok kl=0.0000
+2026-02-27 14:14:55 | INFO | VAL@step 120 | thr=0.1192 acc=0.8667 macro_f1=0.8661 auroc=0.9276 auprc=0.9204
+2026-02-27 14:15:09 | INFO | HARD@step 120 | acc=0.6413 (n=92)
+2026-02-27 14:15:24 | INFO | EASY@step 120 | acc=0.9000 (n=90)
+2026-02-27 14:15:24 | INFO | No improvement (patience 2/5). Best: macro_f1=0.8792 @ step 80
+2026-02-27 14:15:42 | INFO | Step 121/264 | epoch 1 | loss=-182.2200 reward=0.312 acc=0.656 invalid=0.000 thinking=136tok kl=0.0000
+2026-02-27 14:15:57 | INFO | Step 122/264 | epoch 1 | loss=148.5121 reward=0.875 acc=0.938 invalid=0.000 thinking=132tok kl=0.0000
+2026-02-27 14:16:14 | INFO | Step 123/264 | epoch 1 | loss=-157.4850 reward=0.844 acc=0.922 invalid=0.000 thinking=141tok kl=0.0000
+2026-02-27 14:16:33 | INFO | Step 124/264 | epoch 1 | loss=101.8439 reward=0.969 acc=0.984 invalid=0.000 thinking=145tok kl=0.0000
+2026-02-27 14:16:47 | INFO | Step 125/264 | epoch 1 | loss=-33.6163 reward=0.344 acc=0.672 invalid=0.000 thinking=154tok kl=0.0000
+2026-02-27 14:17:05 | INFO | Step 126/264 | epoch 1 | loss=-50.4264 reward=0.969 acc=0.984 invalid=0.000 thinking=123tok kl=0.0000
+2026-02-27 14:17:21 | INFO | Step 127/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=127tok kl=0.0000
+2026-02-27 14:17:41 | INFO | Step 128/264 | epoch 1 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=129tok kl=0.0000
+2026-02-27 14:17:57 | INFO | Step 129/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=130tok kl=0.0000
+2026-02-27 14:18:15 | INFO | Step 130/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=147tok kl=0.0000
+2026-02-27 14:18:31 | INFO | Step 131/264 | epoch 1 | loss=-15.2353 reward=0.844 acc=0.922 invalid=0.000 thinking=140tok kl=0.0000
+2026-02-27 14:18:45 | INFO | Step 132/264 | epoch 1 | loss=-59.4666 reward=0.969 acc=0.984 invalid=0.000 thinking=129tok kl=0.0000
+2026-02-27 14:19:08 | INFO | Step 133/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=147tok kl=0.0000
+2026-02-27 14:19:25 | INFO | Step 134/264 | epoch 1 | loss=-58.5300 reward=0.812 acc=0.906 invalid=0.000 thinking=151tok kl=0.0000
+2026-02-27 14:19:45 | INFO | Step 135/264 | epoch 1 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=142tok kl=0.0000
+2026-02-27 14:20:03 | INFO | Step 136/264 | epoch 1 | loss=65.3042 reward=0.844 acc=0.922 invalid=0.000 thinking=147tok kl=0.0000
+2026-02-27 14:20:23 | INFO | Step 137/264 | epoch 1 | loss=210.0867 reward=0.812 acc=0.906 invalid=0.000 thinking=148tok kl=0.0000
+2026-02-27 14:20:39 | INFO | Step 138/264 | epoch 1 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=130tok kl=0.0000
+2026-02-27 14:20:59 | INFO | Step 139/264 | epoch 1 | loss=450.0436 reward=0.281 acc=0.641 invalid=0.000 thinking=172tok kl=0.0000
+2026-02-27 14:21:17 | INFO | Step 140/264 | epoch 1 | loss=199.5886 reward=0.469 acc=0.734 invalid=0.000 thinking=161tok kl=0.0000
+2026-02-27 14:21:45 | INFO | VAL@step 140 | thr=0.1067 acc=0.8667 macro_f1=0.8658 auroc=0.9256 auprc=0.9182
+2026-02-27 14:22:06 | INFO | HARD@step 140 | acc=0.6413 (n=92)
+2026-02-27 14:22:19 | INFO | EASY@step 140 | acc=0.9000 (n=90)
+2026-02-27 14:22:19 | INFO | No improvement (patience 3/5). Best: macro_f1=0.8792 @ step 80
+2026-02-27 14:22:34 | INFO | Step 141/264 | epoch 1 | loss=-27.2296 reward=0.969 acc=0.984 invalid=0.000 thinking=147tok kl=0.0000
+2026-02-27 14:22:52 | INFO | Step 142/264 | epoch 1 | loss=-151.6347 reward=0.812 acc=0.906 invalid=0.000 thinking=162tok kl=0.0000
+2026-02-27 14:23:10 | INFO | Step 143/264 | epoch 1 | loss=37.3941 reward=0.531 acc=0.766 invalid=0.000 thinking=155tok kl=0.0000
+2026-02-27 14:23:28 | INFO | Step 144/264 | epoch 1 | loss=139.7218 reward=0.594 acc=0.797 invalid=0.000 thinking=155tok kl=0.0000
+2026-02-27 14:23:43 | INFO | Step 145/264 | epoch 1 | loss=-212.5294 reward=0.656 acc=0.828 invalid=0.000 thinking=181tok kl=0.0000
+2026-02-27 14:24:00 | INFO | Step 146/264 | epoch 1 | loss=-15.4508 reward=0.688 acc=0.844 invalid=0.000 thinking=128tok kl=0.0000
+2026-02-27 14:24:16 | INFO | Step 147/264 | epoch 1 | loss=-163.5543 reward=0.875 acc=0.938 invalid=0.000 thinking=142tok kl=0.0000
+2026-02-27 14:24:34 | INFO | Step 148/264 | epoch 1 | loss=-355.0397 reward=0.531 acc=0.766 invalid=0.000 thinking=139tok kl=0.0000
+2026-02-27 14:24:49 | INFO | Step 149/264 | epoch 1 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=134tok kl=0.0000
+2026-02-27 14:26:06 | INFO | Step 150/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=153tok kl=0.0000
+2026-02-27 14:26:22 | INFO | Step 151/264 | epoch 1 | loss=113.4892 reward=0.969 acc=0.984 invalid=0.000 thinking=165tok kl=0.0000
+2026-02-27 14:26:36 | INFO | Step 152/264 | epoch 1 | loss=101.2951 reward=0.406 acc=0.703 invalid=0.000 thinking=189tok kl=0.0000
+2026-02-27 14:26:54 | INFO | Step 153/264 | epoch 1 | loss=0.0000 reward=0.000 acc=0.500 invalid=0.000 thinking=166tok kl=0.0000
+2026-02-27 14:27:12 | INFO | Step 154/264 | epoch 1 | loss=-176.2904 reward=0.250 acc=0.625 invalid=0.000 thinking=189tok kl=0.0000
+2026-02-27 14:27:29 | INFO | Step 155/264 | epoch 1 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=164tok kl=0.0000
+2026-02-27 14:27:46 | INFO | Step 156/264 | epoch 1 | loss=60.9890 reward=0.812 acc=0.906 invalid=0.000 thinking=192tok kl=0.0000
+2026-02-27 14:28:02 | INFO | Step 157/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=162tok kl=0.0000
+2026-02-27 14:28:18 | INFO | Step 158/264 | epoch 1 | loss=-29.1997 reward=0.344 acc=0.672 invalid=0.000 thinking=172tok kl=0.0000
+2026-02-27 14:28:37 | INFO | Step 159/264 | epoch 1 | loss=98.4528 reward=0.594 acc=0.797 invalid=0.000 thinking=189tok kl=0.0000
+2026-02-27 14:28:54 | INFO | Step 160/264 | epoch 1 | loss=142.0265 reward=0.469 acc=0.734 invalid=0.000 thinking=184tok kl=0.0000
+2026-02-27 14:29:16 | INFO | VAL@step 160 | thr=0.1067 acc=0.8667 macro_f1=0.8647 auroc=0.9243 auprc=0.9173
+2026-02-27 14:29:28 | INFO | HARD@step 160 | acc=0.6304 (n=92)
+2026-02-27 14:29:41 | INFO | EASY@step 160 | acc=0.9000 (n=90)
+2026-02-27 14:29:41 | INFO | No improvement (patience 4/5). Best: macro_f1=0.8792 @ step 80
+2026-02-27 14:30:02 | INFO | Step 161/264 | epoch 1 | loss=-15.9065 reward=0.719 acc=0.859 invalid=0.000 thinking=174tok kl=0.0000
+2026-02-27 14:30:19 | INFO | Step 162/264 | epoch 1 | loss=-36.3710 reward=0.656 acc=0.828 invalid=0.000 thinking=184tok kl=0.0000
+2026-02-27 14:30:37 | INFO | Step 163/264 | epoch 1 | loss=275.2455 reward=0.469 acc=0.734 invalid=0.000 thinking=195tok kl=0.0000
+2026-02-27 14:30:55 | INFO | Step 164/264 | epoch 1 | loss=66.6018 reward=0.562 acc=0.781 invalid=0.000 thinking=189tok kl=0.0000
+2026-02-27 14:31:13 | INFO | Step 165/264 | epoch 1 | loss=23.5136 reward=0.375 acc=0.688 invalid=0.000 thinking=168tok kl=0.0000
+2026-02-27 14:31:31 | INFO | Step 166/264 | epoch 1 | loss=7.3667 reward=0.281 acc=0.641 invalid=0.000 thinking=179tok kl=0.0000
+2026-02-27 14:31:51 | INFO | Step 167/264 | epoch 1 | loss=-80.4780 reward=0.375 acc=0.688 invalid=0.000 thinking=226tok kl=0.0000
+2026-02-27 14:32:10 | INFO | Step 168/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=157tok kl=0.0000
+2026-02-27 14:32:27 | INFO | Step 169/264 | epoch 1 | loss=-71.7747 reward=0.938 acc=0.969 invalid=0.000 thinking=187tok kl=0.0000
+2026-02-27 14:32:47 | INFO | Step 170/264 | epoch 1 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=154tok kl=0.0000
+2026-02-27 14:33:03 | INFO | Step 171/264 | epoch 1 | loss=-38.1120 reward=0.781 acc=0.891 invalid=0.000 thinking=165tok kl=0.0000
+2026-02-27 14:33:24 | INFO | Step 172/264 | epoch 1 | loss=-129.0664 reward=0.875 acc=0.938 invalid=0.000 thinking=167tok kl=0.0000
+2026-02-27 14:33:42 | INFO | Step 173/264 | epoch 1 | loss=-11.0858 reward=0.281 acc=0.641 invalid=0.000 thinking=175tok kl=0.0000
+2026-02-27 14:34:00 | INFO | Step 174/264 | epoch 1 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=172tok kl=0.0000
+2026-02-27 14:34:17 | INFO | Step 175/264 | epoch 1 | loss=-138.9272 reward=0.531 acc=0.766 invalid=0.000 thinking=172tok kl=0.0000
+2026-02-27 14:34:34 | INFO | Step 176/264 | epoch 1 | loss=0.0000 reward=1.000 acc=1.000 invalid=0.000 thinking=163tok kl=0.0000
+2026-02-27 14:34:57 | INFO | Step 177/264 | epoch 2 | loss=234.6848 reward=0.594 acc=0.797 invalid=0.000 thinking=198tok kl=0.0000
+2026-02-27 14:35:18 | INFO | Step 178/264 | epoch 2 | loss=0.0000 reward=0.750 acc=0.875 invalid=0.000 thinking=166tok kl=0.0000
+2026-02-27 14:35:35 | INFO | Step 179/264 | epoch 2 | loss=201.9124 reward=0.750 acc=0.875 invalid=0.000 thinking=222tok kl=0.0000
+2026-02-27 14:35:52 | INFO | Step 180/264 | epoch 2 | loss=282.5317 reward=0.375 acc=0.688 invalid=0.000 thinking=189tok kl=0.0000
+2026-02-27 14:36:22 | INFO | VAL@step 180 | thr=0.0759 acc=0.8533 macro_f1=0.8529 auroc=0.9236 auprc=0.9160
+2026-02-27 14:36:37 | INFO | HARD@step 180 | acc=0.6630 (n=92)
+2026-02-27 14:36:50 | INFO | EASY@step 180 | acc=0.8889 (n=90)
+2026-02-27 14:36:50 | INFO | No improvement (patience 5/5). Best: macro_f1=0.8792 @ step 80
+2026-02-27 14:36:50 | INFO | Early stopping triggered at step 180 (patience=5 exceeded).
+2026-02-27 14:36:50 | INFO | Saving final RL checkpoint...
+2026-02-27 14:37:01 | INFO | Final state: tinker://f15c9d4f-c54d-5206-b105-aa4e31b25519:train:0/weights/rl_final
+2026-02-27 14:37:01 | INFO | Final sampler: tinker://f15c9d4f-c54d-5206-b105-aa4e31b25519:train:0/sampler_weights/rl_final
+2026-02-27 14:37:01 | INFO | Using best model for test eval (step=80, macro_f1=0.8792)
+2026-02-27 14:37:02 | INFO | Running test generation evaluation on 150 examples...
+2026-02-27 15:00:20 | INFO | TEST | acc=0.8533 balanced_acc=0.8579 macro_f1=0.8524 auroc=0.9417 auprc=0.8846 precision=0.7945 recall=0.8923 tp=58 fp=15 fn=7 tn=70
+2026-02-27 15:00:20 | INFO | Saved RL model pointer to /home/zhongmouhe/p2/tinker-pipeline/model/rl_latest.json
